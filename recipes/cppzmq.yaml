@@ -8,7 +8,7 @@ build:
   type: cmake
   args: 
    - -DBUILD_TESTING=OFF
-   - -CPPZMQ_BUILD_TESTS=OFF
+   - -DCPPZMQ_BUILD_TESTS=OFF
    - -DCOVERAGE=OFF
 
 depends: []
