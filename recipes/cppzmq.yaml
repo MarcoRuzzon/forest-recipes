@@ -1,0 +1,14 @@
+clone:
+  type: git
+  server: github.com
+  repository: zeromq/cppzmq.git
+  tag: v4.7.1
+
+build:
+  type: cmake
+  args: 
+   - -DBUILD_TESTING=OFF
+   - -CPPZMQ_BUILD_TESTS=OFF
+   - -DCOVERAGE=OFF
+
+depends: []

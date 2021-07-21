@@ -15,3 +15,5 @@ depends:
   - matlogger2
   - XBotInterface
   - protobuf
+  - cppzmq
+  - ZeroMQ
