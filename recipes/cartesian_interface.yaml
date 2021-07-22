@@ -15,4 +15,5 @@ depends:
   - OpenSoT
   - ReflexxesTypeII
   - matlogger2
+  - moveit
 #  - Eigen3
