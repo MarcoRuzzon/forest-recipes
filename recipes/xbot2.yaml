@@ -13,3 +13,4 @@ depends:
   - XBotInterface
   - matlogger2
   - gazebo
+  - matio
