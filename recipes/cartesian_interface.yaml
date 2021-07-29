@@ -7,8 +7,7 @@ clone:
 build:
   type: cmake
   args:
-    - -DXBOT2_ENABLE_XENO=OFF
-    - -DCMAKE_BUILD_TYPE=None
+    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 depends:
   - XBotInterface
@@ -16,4 +15,6 @@ depends:
   - ReflexxesTypeII
   - matlogger2
   - moveit
-#  - Eigen3
+  - Eigen3
+  - urdf
+  - Boost

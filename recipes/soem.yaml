@@ -6,7 +6,10 @@ clone:
 
 build:
   type: cmake
-  args:
-    - -DENABLE_XENO=OFF
+  args: []
+  args_if:
+    xeno:
+      - -DCMAKE_USE_XENOMAI=ON
+      - -DCMAKE_BUILD_TYPE=None
 
 depends: []

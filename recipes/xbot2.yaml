@@ -7,7 +7,12 @@ clone:
 build:
   type: cmake
   args:
-    - -DENABLE_XENO=OFF
+    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+  args_if:
+    xeno:
+      - -DXBOT2_REALTIME=ON
+      - -DXBOT2_ENABLE_XENO=ON
+
 
 depends:
   - XBotInterface

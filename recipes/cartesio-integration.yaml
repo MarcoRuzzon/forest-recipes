@@ -6,9 +6,10 @@ clone:
 
 build:
   type: cmake
-  args: []
+  args:
+    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 depends:
   - xbot2
   - cartesian_interface
-#:q  - Eigen3
+#  - Eigen3

@@ -6,6 +6,7 @@ clone:
 
 build:
   type: cmake
-  args: []
+  args:
+    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 depends: []
