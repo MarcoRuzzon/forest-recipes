@@ -1,0 +1,14 @@
+clone:
+  type: git
+  server: github.com
+  repository: advrhumanoids/ModelInterfaceRBDL.git
+  tag: devel-cpack
+
+build:
+  type: cmake
+  args:
+    - -DCMAKE_BUILD_TYPE=Release
+
+depends:
+  - RBDL
+  - YCM

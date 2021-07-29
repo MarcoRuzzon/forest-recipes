@@ -1,0 +1,16 @@
+clone:
+  type: git
+  server: github.com
+  repository: advrhumanoids/rbdl.git
+  tag: albero_devel
+
+build:
+  type: cmake
+  args:
+    - -DCMAKE_BUILD_TYPE=Release
+    - -DRBDL_BUILD_ADDON_URDFREADER=ON
+    - -DRBDL_BUILD_STATIC=ON
+    - -DRBDL_USE_ROS_URDF_LIBRARY=ON
+
+depends:
+  - Eigen3
