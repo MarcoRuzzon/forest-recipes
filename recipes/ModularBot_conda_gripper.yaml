@@ -1,8 +1,8 @@
 clone:
   type: git
   server: github.com
-  repository: marcoruzzon/robots.git
-  tag: main
+  repository: ADVRHumanoids/tree-modularbots.git
+  tag: conda-gripper
 
 build:
   type: cmake
