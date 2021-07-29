@@ -16,3 +16,5 @@ build:
 
 depends:
   - soem
+  - cppzmq
+  - ZeroMQ
