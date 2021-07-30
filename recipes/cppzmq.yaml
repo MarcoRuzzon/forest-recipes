@@ -11,4 +11,5 @@ build:
    - -DCPPZMQ_BUILD_TESTS=OFF
    - -DCOVERAGE=OFF
 
-depends: []
+depends:
+  - ZeroMQ
