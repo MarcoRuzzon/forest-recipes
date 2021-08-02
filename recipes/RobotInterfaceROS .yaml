@@ -1,6 +1,6 @@
 clone:
   type: deb
-  debname: robot_monitoring
+  debname: robotinterfaceros
 
 depends:
   - XBotInterface
