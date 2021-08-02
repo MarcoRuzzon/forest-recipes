@@ -19,3 +19,4 @@ depends:
   - matlogger2
   - gazebo
   - matio
+  - xbot_msgs
