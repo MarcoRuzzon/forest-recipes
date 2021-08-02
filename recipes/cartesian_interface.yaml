@@ -18,3 +18,4 @@ depends:
   - Eigen3
   - urdf
   - Boost
+  - RobotInterfaceROS
