@@ -1,22 +1,9 @@
 clone:
-  type: git
-  server: github.com
-  repository: advrhumanoids/xbot2_wip.git
-  tag: albero-devel
-
-build:
-  type: cmake
-  args:
-    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
-  args_if:
-    xeno:
-      - -DXBOT2_REALTIME=ON
-      - -DXBOT2_ENABLE_XENO=ON
+  type: deb
+  debname: xbot2
 
 
 depends:
   - XBotInterface
   - matlogger2
-  - gazebo
-  - matio
   - xbot_msgs

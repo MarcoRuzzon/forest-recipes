@@ -6,4 +6,3 @@ depends:
   - XBotInterface
   - xbot_msgs
   - RobotInterfaceROS
-#  - qt5

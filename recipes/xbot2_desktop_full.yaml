@@ -1,0 +1,10 @@
+depends:
+  - xbot2
+  - ModelInterfaceRBDL
+  - cartesian_interface
+  - OpenSoT
+  - XBotInterface
+  - xbot_msgs
+  - matlogger2
+  - robot_monitoring
+  - RobotInterfaceROS

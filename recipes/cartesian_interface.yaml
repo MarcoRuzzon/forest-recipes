@@ -1,21 +1,10 @@
 clone:
-  type: git
-  server: github.com
-  repository: advrhumanoids/CartesianInterface.git
-  tag: albero-devel-2
-
-build:
-  type: cmake
-  args:
-    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+  type: deb
+  debname: cartesian_interface
 
 depends:
   - XBotInterface
   - OpenSoT
-  - ReflexxesTypeII
   - matlogger2
-  - moveit
-  - Eigen3
-  - urdf
-  - Boost
   - RobotInterfaceROS
+  - xbot_msgs
