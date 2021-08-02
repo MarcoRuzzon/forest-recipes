@@ -1,0 +1,9 @@
+clone:
+  type: deb
+  debname: robot_monitoring
+
+depends:
+  - XBotInterface
+  - xbot_msgs
+  - RobotInterfaceROS
+#  - qt5

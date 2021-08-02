@@ -1,0 +1,6 @@
+clone:
+  type: deb
+  debname: open_sot
+
+depends:
+  - XBotInterface
