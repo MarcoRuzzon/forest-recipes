@@ -1,3 +1,6 @@
 clone:
   type: deb
   debname: xbotinterface
+
+depends:
+  - kdl_parser   # to be removed when deb dependecy is fixed

@@ -19,3 +19,5 @@ depends:
   - urdf
   - Boost
   - RobotInterfaceROS
+  - robot_state_publisher
+  - tf_conversions

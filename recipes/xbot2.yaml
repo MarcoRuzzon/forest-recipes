@@ -21,4 +21,8 @@ depends:
   - matio
   - xbot_msgs
   - orocos_kdl
-
+  - eigen_conversions
+  - urdf
+  - tf2_kdl
+  - tf
+  - tf2_eigen
