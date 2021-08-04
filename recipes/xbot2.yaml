@@ -20,3 +20,5 @@ depends:
   - gazebo
   - matio
   - xbot_msgs
+  - orocos_kdl
+
