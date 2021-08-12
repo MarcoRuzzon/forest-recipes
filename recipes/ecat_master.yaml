@@ -18,3 +18,4 @@ depends:
   - soem
   - cppzmq
   - ZeroMQ
+  - cap2-bin

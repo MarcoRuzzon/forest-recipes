@@ -1,0 +1,3 @@
+clone:
+  type: deb
+  debname: libcap2-bin
