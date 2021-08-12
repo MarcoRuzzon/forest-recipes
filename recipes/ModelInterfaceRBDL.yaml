@@ -12,3 +12,4 @@ build:
 depends:
   - RBDL
   - XBotInterface
+  - eigen_conversions
