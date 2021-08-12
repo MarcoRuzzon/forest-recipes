@@ -4,4 +4,5 @@ clone:
 
 depends:
   - kdl_parser   # to be removed when deb dependecy is fixed
-  - yaml-cpp # to be removed when deb dependecy is fixed
+  - yaml-cpp     # to be removed when deb dependecy is fixed
+  - matio        # to be removed when deb dependecy is fixed
