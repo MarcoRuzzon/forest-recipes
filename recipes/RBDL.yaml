@@ -14,3 +14,4 @@ build:
 
 depends:
   - Eigen3
+  - urdf
