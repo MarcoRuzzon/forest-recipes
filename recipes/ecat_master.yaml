@@ -21,3 +21,4 @@ depends:
   - cap2-bin
   - protobuf
   - yaml-cpp
+  - Eigen3
