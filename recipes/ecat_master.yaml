@@ -19,3 +19,4 @@ depends:
   - cppzmq
   - ZeroMQ
   - cap2-bin
+  - protobuf
