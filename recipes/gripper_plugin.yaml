@@ -16,5 +16,6 @@ build:
 
 depends:
   - xbot2
+  - xbot2_examples
   - catkin
   - gazebo
