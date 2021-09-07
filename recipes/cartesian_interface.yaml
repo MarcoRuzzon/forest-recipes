@@ -21,3 +21,4 @@ depends:
   - RobotInterfaceROS
   - robot_state_publisher
   - tf_conversions
+  - pybind11
