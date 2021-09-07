@@ -1,0 +1,11 @@
+clone:
+  type: git
+  server: github.com
+  repository: ADVRHumanoids/tree-modularbots.git
+  tag: modularbot-4 
+
+build:
+  type: cmake
+  args: []
+
+depends: []
