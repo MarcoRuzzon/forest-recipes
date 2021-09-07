@@ -1,0 +1,13 @@
+clone:
+  type: git
+  server: github.com
+  repository: advrhumanoids/abero-api
+  tag: fi_elemaster_demo
+
+build:
+  type: python # todo: add support for pyhton packages
+  args:
+    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+
+depends:
+  - tree_ros_packages
