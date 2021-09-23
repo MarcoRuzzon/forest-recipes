@@ -1,4 +1,3 @@
 depends:
   - ModelInterfaceRBDL
   - xbot2_examples
-  - ec_xbot2_client
