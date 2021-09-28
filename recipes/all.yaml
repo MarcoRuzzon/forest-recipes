@@ -1,3 +1,4 @@
 depends:
   - ModelInterfaceRBDL
   - xbot2_examples
+  - robot_monitoring
