@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/CartesianInterface.git
-  tag: albero-devel-2
+  tag: fi_ci_jumps
 
 build:
   type: cmake

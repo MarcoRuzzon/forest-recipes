@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/xbot2_examples.git
-  tag: fi_gripper_btns
+  tag: fi_controller_switch
 
 build:
   type: cmake
