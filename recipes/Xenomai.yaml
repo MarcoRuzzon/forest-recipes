@@ -1,0 +1,19 @@
+clone:
+  type: git
+  server: gitlab.advr.iit.it
+  repository: amargan/xenomai.git
+  tag: v3.1.x_cmake
+
+build:
+  type: custom
+  cmd:
+    - "{srcdir}/scripts/bootstrap"
+    - "{srcdir}/configure --enable-pshared --enable-tls --enable-dlopen-libs --enable-async-cancel --enable-smp"
+    - make -j {jobs}
+    - sudo make install
+    - echo /usr/xenomai/lib/ > xenomai.conf
+    - sudo cp -f xenomai.conf /etc/ld.so.conf.d/
+    - sudo ldconfig
+    - export PATH=$PATH:/usr/xenomai/bin
+
+depends: []
