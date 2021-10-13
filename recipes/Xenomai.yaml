@@ -14,6 +14,7 @@ build:
     - echo /usr/xenomai/lib/ > xenomai.conf
     - sudo cp -f xenomai.conf /etc/ld.so.conf.d/
     - sudo ldconfig
-    - export PATH=$PATH:/usr/xenomai/bin
+    # export is necessary but is a bash command (now only sh commands are accepted)
+    # - export PATH=$PATH:/usr/xenomai/bin
 
 depends: []
