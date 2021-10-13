@@ -1,0 +1,13 @@
+clone:
+  type: custom
+  cmd:
+    - sudo sh -c 'echo "deb http://xbot.cloud/xbot2/ubuntu/$(lsb_release -sc) /" > /etc/apt/sources.list.d/xbot-latest.list'
+    - wget -q -O - http://xbot.cloud/xbot2/ubuntu/KEY.gpg | sudo apt-key add -
+    - sudo apt update
+
+build:
+  type: custom
+  cmd:
+    - sudo apt install xbot_env
+
+depends: []
