@@ -7,7 +7,7 @@ clone:
 build:
   type: custom
   cmd:
-    - "{srcdir}/scripts/bootstrap"
+    - cd {srcdir} && ./scripts/bootstrap
     - "{srcdir}/configure --enable-pshared --enable-tls --enable-dlopen-libs --enable-async-cancel --enable-smp"
     - make -j {jobs}
     - sudo make install
