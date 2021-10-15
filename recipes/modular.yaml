@@ -1,0 +1,12 @@
+clone:
+  type: git
+  server: github.com
+  repository: ADVRHumanoids/modular.git
+  tag: 700e41e0b4250f19eda1a45d7b17b38a8932e482
+
+build:
+  type: custom
+  cmd:
+    - cd {srcdir} && pip2 install --prefix={installdir} .
+
+depends: []
