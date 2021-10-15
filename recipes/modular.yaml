@@ -11,3 +11,4 @@ build:
 
 depends:
   - tf
+  - ec_xbot2_client
