@@ -1,0 +1,14 @@
+clone:
+  type: git
+  server: github.com
+  repository: ADVRHumanoids/capability_framework.git
+  tag: mr_setup
+
+build:
+  type: custom
+  cmd:
+    - cd {srcdir} && pip2 install --user -e .
+
+depends:
+  - python-tk
+  - smach
