@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/ec_xbot2_client.git
-  tag: albero_devel
+  tag: albero-feat-digital-io
 
 build:
   type: cmake

@@ -1,8 +1,8 @@
 clone:
   type: git
-  server: gitlab.advr.iit.it
-  repository: xeno-ecat/ecat_master_advr.git
-  tag: xbot2_fixed
+  server: github.com
+  repository: ADVRHumanoids/ecat_master_tree.git
+  tag: develop
 
 build:
   type: cmake
