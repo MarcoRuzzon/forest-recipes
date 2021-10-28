@@ -1,0 +1,20 @@
+clone:
+  type: git
+  server: github.com
+  repository: advrhumanoids/albero-plugins.git
+  tag: feat/controller-switch/fi
+
+build:
+  type: cmake
+  args:
+    - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+  args_if:
+    xeno:
+      - -DXBOT2_ENABLE_XENO=ON
+
+depends:
+  - xbot2
+  - cartesian_interface
+  - gazebo
+  - cartesio-integration
+  - ec_xbot2_client
