@@ -1,8 +1,8 @@
 clone:
   type: git
   server: github.com
-  repository: alessiomargan/SOEM.git
-  tag: xeno3
+  repository: ADVRHumanoids/soem_tree.git
+  tag: devel
 
 build:
   type: cmake
