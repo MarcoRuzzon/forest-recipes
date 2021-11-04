@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/xbot2_examples.git
-  tag: fi_controller_switch
+  tag: master
 
 build:
   type: cmake
