@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero-plugins.git
-  tag: feat/controller-switch/fi
+  tag: fix/digital-io/mr
 
 build:
   type: cmake
