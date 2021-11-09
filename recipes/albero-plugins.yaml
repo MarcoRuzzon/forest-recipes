@@ -18,3 +18,4 @@ depends:
   - gazebo
   - cartesio-integration
   - ec_xbot2_client
+  - albero_msgs
