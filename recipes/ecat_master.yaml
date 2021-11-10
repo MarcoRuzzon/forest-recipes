@@ -2,7 +2,7 @@ clone:
   type: git
   server: gitlab.advr.iit.it
   repository: xeno-ecat/ecat_master_advr.git
-  tag: xbot2_fixed
+  tag: albero_xbot2_fixed
 
 build:
   type: cmake
