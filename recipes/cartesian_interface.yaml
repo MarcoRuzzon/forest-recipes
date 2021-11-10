@@ -23,5 +23,4 @@ depends:
   - tf_conversions
   - pybind11
   - eigen_conversions
-  - tree_ros_packages
   - fcl
