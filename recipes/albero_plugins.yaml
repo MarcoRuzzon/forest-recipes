@@ -1,7 +1,7 @@
 clone:
   type: git
   server: github.com
-  repository: advrhumanoids/albero-plugins.git
+  repository: advrhumanoids/albero_plugins.git
   tag: fix/digital-io/mr
 
 build:
