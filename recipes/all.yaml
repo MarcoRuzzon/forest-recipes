@@ -1,5 +1,5 @@
 depends:
   - ModelInterfaceRBDL
   - xbot2_examples
-  - albero-plugins
+  - albero_plugins
   - robot_monitoring
