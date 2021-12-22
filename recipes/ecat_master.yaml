@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: ADVRHumanoids/ecat_master_tree.git
-  tag: develop
+  tag: feature/IOLINK-cmds
 
 build:
   type: cmake
@@ -14,6 +14,7 @@ build:
       - -DCMAKE_USE_XENOMAI=ON
       - -DENABLE_XENO=ON
       - -DBUILD_TOOLS=ON
+      - -DBUILD_REPL=ON
 
 depends:
   - soem
