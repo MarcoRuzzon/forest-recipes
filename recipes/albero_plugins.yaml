@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero_plugins.git
-  tag: fix/digital-io/mr
+  tag: feature/iolink
 
 build:
   type: cmake

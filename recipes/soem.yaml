@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: ADVRHumanoids/soem_tree.git
-  tag: feature/AoE
+  tag: devel
 
 build:
   type: cmake
