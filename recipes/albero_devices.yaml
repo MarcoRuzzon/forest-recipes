@@ -1,7 +1,7 @@
 clone:
   type: git
   server: github.com
-  repository: advrhumanoids/albero_plugins.git
+  repository: advrhumanoids/albero_devices.git
   tag: feature/iolink
 
 build:
@@ -13,10 +13,4 @@ build:
       - -DXBOT2_ENABLE_XENO=ON
 
 depends:
-  - xbot2
-  - cartesian_interface
-  - gazebo
-  - cartesio-integration
   - ec_xbot2_client
-  - albero_msgs
-  - albero_devices
