@@ -8,6 +8,7 @@ build:
   type: cmake
   args:
     - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+    - -DEC_CLIENT_ENABLE=ON
   args_if:
     xeno:
       - -DXBOT2_ENABLE_XENO=ON
