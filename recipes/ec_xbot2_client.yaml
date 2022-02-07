@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/ec_xbot2_client.git
-  tag: feat/digital-io/mr
+  tag: feat/io-link/ep
 
 build:
   type: cmake
