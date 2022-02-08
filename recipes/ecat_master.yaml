@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: ADVRHumanoids/ecat_master_tree.git
-  tag: feature/iolink
+  tag: v0.1-albero
 
 build:
   type: cmake
