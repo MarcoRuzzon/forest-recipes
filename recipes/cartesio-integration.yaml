@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/cartesian-impedance-controller.git
-  tag: fi_switch_jumps
+  tag: v0.1-albero
 
 build:
   type: cmake
