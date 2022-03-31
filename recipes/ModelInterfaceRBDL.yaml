@@ -2,14 +2,22 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/ModelInterfaceRBDL.git
-  tag: devel-cpack
+  tag: devel
+
+pre_build_if:
+  binary_gen:
+    - rm -rf *.deb
 
 build:
   type: cmake
-  args:
-    - -DCMAKE_BUILD_TYPE=Release
 
-depends:
-  - RBDL
+post_build_if:
+  binary_gen:
+    - make package
+    - cp *.deb {config.binary_dir}
+
+depends: 
+  - rbdl
   - XBotInterface
-  - eigen_conversions
+
+
