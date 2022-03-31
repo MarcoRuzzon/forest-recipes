@@ -2,7 +2,8 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero_msgs.git
-  tag: v0.1-albero
+  tag: master
+  ros_src: true
 
 build:
   type: cmake
