@@ -2,12 +2,25 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/CartesianInterface.git
-  tag: fi_ci_jumps
+  tag: 2.0-devel
 
 build:
   type: cmake
   args:
     - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+    - -DCARTESIO_COMPILE_EXAMPLES=TRUE
+  args_if:
+    ubuntu_release >= 20.04: 
+      - -DPYBIND11_PYTHON_VERSION=3
+      - -DPYTHON_EXECUTABLE=$(readlink -f $(which python3))
+      - -DPYTHON_VERSION=3
+    ubuntu_release < 20.04: 
+      - -DPYBIND11_PYTHON_VERSION=2
+      - -DPYTHON_EXECUTABLE=$(readlink -f $(which python2))
+      - -DPYTHON_VERSION=2
+    test:
+      - -DCARTESIO_BUILD_TESTS=ON
+
 
 depends:
   - XBotInterface
