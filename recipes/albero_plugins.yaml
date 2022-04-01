@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero_plugins.git
-  tag: v0.1-sps
+  tag: sps
 
 build:
   type: cmake
@@ -16,7 +16,7 @@ depends:
   - xbot2
   - cartesian_interface
   - gazebo
-  - cartesio-integration
+  # - cartesio-integration
   - ec_xbot2_client
   - albero_msgs
   - albero_devices

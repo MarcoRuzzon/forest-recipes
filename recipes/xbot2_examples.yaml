@@ -16,5 +16,5 @@ depends:
   - xbot2
   - cartesian_interface
   - gazebo
-  - cartesio-integration
+  # - cartesio-integration
   - ec_xbot2_client
