@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero_plugins.git
-  tag: sps
+  tag: v0.2-sps
 
 build:
   type: cmake

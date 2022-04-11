@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero_devices.git
-  tag: v0.3-sps
+  tag: v0.4-sps
 
 build:
   type: cmake
