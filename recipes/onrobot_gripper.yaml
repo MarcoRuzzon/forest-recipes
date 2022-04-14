@@ -1,0 +1,6 @@
+# Experimental version! I don't know where to put the build type, because this is a ros package
+clone:
+  type: git
+  server: github.com
+  repository: ADVRHumanoids/onrobot_gripper.git
+  tag: sps
