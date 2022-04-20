@@ -1,0 +1,8 @@
+clone:
+  type: git
+  server: github.com
+  repository: ADVRHumanoids/mecademic_ros.git
+  tag: sps
+  ros_src: true
+
+
