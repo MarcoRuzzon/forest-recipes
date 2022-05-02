@@ -1,0 +1,17 @@
+clone:
+  type: git
+  server: github.com
+  repository: ADVRHumanoids/mecademic_xbot2_device.git
+  tag: master
+
+build:
+  type: cmake
+  args:
+    - -DCMAKE_BUILD_TYPE=Release
+    - -XBOT2_ENABLE_XENO=OFF
+  args_if:
+    xeno:
+      - -XBOT2_ENABLE_XENO=ON
+
+depends:
+  - xbot2
