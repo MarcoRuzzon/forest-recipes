@@ -1,0 +1,7 @@
+depends:      
+  - rbdl                 
+  - ModelInterfaceRBDL
+  - cartesian_interface
+  - cartesio_collision_support
+  - albero-xbot2-config-files
+  - mecademic_ros
