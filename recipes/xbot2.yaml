@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/xbot2_wip.git
-  tag: filter_fix
+  tag: albero_sps
 
 build:
   type: cmake
