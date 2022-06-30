@@ -8,6 +8,7 @@ build:
   type: cmake
   args:
     - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+    - -DXBOT2_GZ_SUPPORT=OFF
   args_if:
     xeno:
       - -DXBOT2_REALTIME=ON
