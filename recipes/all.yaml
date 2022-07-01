@@ -1,5 +1,6 @@
 depends:
-  - ModelInterfaceRBDL
-  - xbot2_examples
-  - albero_plugins
+  - xbot2
+  - circulo9_device
   - robot_monitoring
+  - ecat_master
+  
