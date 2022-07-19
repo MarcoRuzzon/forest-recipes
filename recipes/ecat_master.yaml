@@ -14,7 +14,7 @@ build:
       - -DCMAKE_USE_XENOMAI=ON
       - -DENABLE_XENO=ON
       - -DBUILD_TOOLS=ON
-      - -DBUILD_REPL=ON
+      - -DBUILD_ECAT_CORE=ON
 
 depends:
   - soem

@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/ec_xbot2_client.git
-  tag: v0.1-albero
+  tag: feature/circulo9
 
 build:
   type: cmake

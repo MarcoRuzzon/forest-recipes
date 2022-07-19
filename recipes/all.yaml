@@ -3,4 +3,4 @@ depends:
   - circulo9_device
   - robot_monitoring
   - ecat_master
-  
+  - ModelInterfaceRBDL  
