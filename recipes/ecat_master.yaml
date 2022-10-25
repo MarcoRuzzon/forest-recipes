@@ -1,7 +1,7 @@
 clone:
   type: git
   server: github.com
-  repository: ADVRHumanoids/ecat_master_tree.git
+  repository: ADVRHumanoids/ecat_master_advr.git
   tag: feature/circulo9
 
 build:
@@ -9,18 +9,14 @@ build:
   args:
     - -DBUILD_TOOLS=OFF
     - -DCMAKE_BUILD_TYPE=Release
+    - -DBUILD_ECAT_CORE=ON
   args_if:
     xeno:
       - -DCMAKE_USE_XENOMAI=ON
       - -DENABLE_XENO=ON
       - -DBUILD_TOOLS=ON
-      - -DBUILD_ECAT_CORE=ON
 
 depends:
   - soem
   - cppzmq
-  - ZeroMQ
-  - cap2-bin
   - protobuf
-  - yaml-cpp
-  - Eigen3

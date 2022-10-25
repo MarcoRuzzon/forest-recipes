@@ -17,8 +17,3 @@ build:
 depends:
   - xbot2
   - ecat_master
-  - matlogger2
-  - XBotInterface
-  - protobuf
-  - cppzmq
-  - ZeroMQ

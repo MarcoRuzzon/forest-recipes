@@ -1,6 +1,3 @@
 depends:
-  - xbot2
   - circulo9_device
   - robot_monitoring
-  - ecat_master
-  - ModelInterfaceRBDL  
