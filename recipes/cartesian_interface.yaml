@@ -11,7 +11,7 @@ build:
 
 depends:
   - XBotInterface
-  - OpenSoT
+  # - fcl
   - ReflexxesTypeII
   - matlogger2
   - moveit
@@ -23,4 +23,4 @@ depends:
   - tf_conversions
   - pybind11
   - eigen_conversions
-  - fcl
+  - OpenSoT

@@ -1,6 +1,6 @@
 clone:
   type: deb
   debname: open_sot
-
+# OpenSoT wants libfcl.so.0.6.1
 depends:
   - XBotInterface
