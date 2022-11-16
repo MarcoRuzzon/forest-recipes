@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero_devices.git
-  tag: devel
+  tag: v1.0-albero
 
 build:
   type: cmake

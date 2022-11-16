@@ -2,12 +2,13 @@ clone:
   type: git
   server: github.com
   repository: advrhumanoids/albero_plugins.git
-  tag: devel
+  tag: v1.0-albero
 
 build:
   type: cmake
   args:
     - -DCMAKE_BUILD_TYPE=RelWithDebInfo
+    - -DUSE_ECAT_CORE=ON
   args_if:
     xeno:
       - -DXBOT2_ENABLE_XENO=ON

@@ -2,7 +2,7 @@ clone:
   type: git
   server: github.com
   repository: ADVRHumanoids/ecat_master_advr.git
-  tag: feature/circulo9
+  tag: v1.0-albero
 
 build:
   type: cmake
