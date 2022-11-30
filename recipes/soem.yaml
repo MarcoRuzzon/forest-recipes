@@ -4,7 +4,7 @@ clone:
   type: git
   server: github.com
   repository: ADVRHumanoids/soem_tree.git
-  tag: devel
+  tag: v1.0-albero
 
 build:
   type: cmake
